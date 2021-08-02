@@ -8,7 +8,8 @@ var resposta = document.getElementById("resposta")
 var d = document.getElementById("dolar")
 var e = document.getElementById("euro")
 
-function conversor() {
+function conversor(e) {
+    console.log(e);
     if (d.checked == true && e.checked == true) {
         alert("frqepbvo")
     } 
