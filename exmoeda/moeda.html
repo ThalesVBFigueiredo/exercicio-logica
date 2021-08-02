@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moeda</title>
+    <link rel="stylesheet" href="moeda.css">
+</head>
+<body>
+    <section>
+        <h1>Conversor:</h1>
+        Valor:
+        <input type="text" id="quanto">
+        <div id="campos">
+            <div id="campo1">
+                <h2>De:</h2>
+                <input type="radio" name="moeda" value="dólar" id="dolar">
+                <label for="dolar">Dólar</label>
+                <br>
+                <input type="radio" name="moeda" id="euro">
+                <label for="dolar">Euro</label>
+                <br>
+                <input type="radio" name="moeda" id="iene">
+                <label for="dolar">Iene</label>
+                <br>
+                <input type="radio" name="moeda" id="libra">
+                <label for="dolar">Libra</label>
+                <br>
+                <input type="radio" name="moeda" id="peso">
+                <label for="dolar">Peso</label>
+                <br>            
+            </div>
+            <div id="campo2">
+                <h2>Para:</h2>
+                <input type="radio" name="moedaC" value="dólar" id="dolar">
+                <label for="dolar">Dólar</label>
+                <br>
+                <input type="radio" name="moedaC" id="euro">
+                <label for="dolar">Euro</label>
+                <br>
+                <input type="radio" name="moedaC" id="iene">
+                <label for="dolar">Iene</label>
+                <br>
+                <input type="radio" name="moedaC" id="libra">
+                <label for="dolar">Libra</label>
+                <br>
+                <input type="radio" name="moedaC" id="peso">
+                <label for="dolar">Peso</label>
+                <br>            
+            </div>
+        </div>
+        <div id="area">
+            <p>
+                <input type="button" value="Converter" id="conversor" onclick="conversor()">
+            </p>
+        </div>
+        <div id="resposta">
+    
+        </div>
+    </section>
+    
+    <script src="moeda.js"></script>
+</body>
+</html>
